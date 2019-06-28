@@ -15,6 +15,11 @@
 		1897566422C3DFC300575E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1897566222C3DFC300575E19 /* LaunchScreen.storyboard */; };
 		1897566F22C3DFC300575E19 /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897566E22C3DFC300575E19 /* finalProjectTests.swift */; };
 		1897567A22C3DFC300575E19 /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897567922C3DFC300575E19 /* finalProjectUITests.swift */; };
+		18F1027022C507CA00017871 /* ILoveMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1026F22C507CA00017871 /* ILoveMeViewController.swift */; };
+		18F1027222C538DD00017871 /* motivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1027122C538DD00017871 /* motivationViewController.swift */; };
+		18F1027422C53E1000017871 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1027322C53E1000017871 /* EmojiViewController.swift */; };
+		18F1027822C546F100017871 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1027722C546F100017871 /* SaveViewController.swift */; };
+		18F1027A22C5479F00017871 /* DailyReflectionListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1027922C5479F00017871 /* DailyReflectionListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1897567522C3DFC300575E19 /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1897567922C3DFC300575E19 /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		1897567B22C3DFC300575E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1026F22C507CA00017871 /* ILoveMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILoveMeViewController.swift; sourceTree = "<group>"; };
+		18F1027122C538DD00017871 /* motivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motivationViewController.swift; sourceTree = "<group>"; };
+		18F1027322C53E1000017871 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		18F1027722C546F100017871 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		18F1027922C5479F00017871 /* DailyReflectionListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReflectionListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		1897565522C3DFC200575E19 /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
+				18F1026F22C507CA00017871 /* ILoveMeViewController.swift */,
 				1897565622C3DFC200575E19 /* AppDelegate.swift */,
 				1897565822C3DFC200575E19 /* ViewController.swift */,
+				18F1027322C53E1000017871 /* EmojiViewController.swift */,
 				1897565A22C3DFC200575E19 /* Main.storyboard */,
+				18F1027922C5479F00017871 /* DailyReflectionListTableViewController.swift */,
+				18F1027722C546F100017871 /* SaveViewController.swift */,
+				18F1027122C538DD00017871 /* motivationViewController.swift */,
 				1897566022C3DFC300575E19 /* Assets.xcassets */,
 				1897566222C3DFC300575E19 /* LaunchScreen.storyboard */,
 				1897566522C3DFC300575E19 /* Info.plist */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F1027A22C5479F00017871 /* DailyReflectionListTableViewController.swift in Sources */,
+				18F1027222C538DD00017871 /* motivationViewController.swift in Sources */,
 				1897565922C3DFC200575E19 /* ViewController.swift in Sources */,
 				1897565F22C3DFC200575E19 /* finalProject.xcdatamodeld in Sources */,
+				18F1027422C53E1000017871 /* EmojiViewController.swift in Sources */,
+				18F1027022C507CA00017871 /* ILoveMeViewController.swift in Sources */,
 				1897565722C3DFC200575E19 /* AppDelegate.swift in Sources */,
+				18F1027822C546F100017871 /* SaveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HBX47QPTA;
 				INFOPLIST_FILE = finalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HBX47QPTA;
 				INFOPLIST_FILE = finalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
